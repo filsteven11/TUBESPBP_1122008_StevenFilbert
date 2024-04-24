@@ -1,0 +1,86 @@
+{
+	"info": {
+		"_postman_id": "18aeb6d3-a682-4601-80bf-2fd559bce21d",
+		"name": "Tokopedia",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "32417272",
+		"_collection_link": "https://www.postman.com/maintenance-engineer-10689906/workspace/tubespbp/collection/32417272-18aeb6d3-a682-4601-80bf-2fd559bce21d?action=share&source=collection_link&creator=32417272"
+	},
+	"item": [
+		{
+			"name": "Beranda",
+			"item": [
+				{
+					"name": "latestProduct",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "DetailProduk",
+			"item": [
+				{
+					"name": "latestProduct",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "KeranjangBelanja",
+			"item": [
+				{
+					"name": "DelProdKeranjang",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": "https://api.tokopedia.com/v1/carts/1/items/1"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "PencarianProduk",
+			"item": [
+				{
+					"name": "SearchProduck",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": "https://api.tokopedia.com/v1/products/search"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "ProfilPengguna",
+			"item": [
+				{
+					"name": "Profile",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Token",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
